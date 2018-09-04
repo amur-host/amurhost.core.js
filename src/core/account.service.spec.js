@@ -21,7 +21,7 @@ describe('AccountService', function () {
     });
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('amur.core.services'));
 
     beforeEach(angular.mock.module(function ($provide) {
         $provide.service('storageService', function ($q) {

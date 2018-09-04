@@ -12,11 +12,11 @@
         };
 
         beforeEach(function () {
-            angular.mock.module('waves.core.services', function ($provide) {
+            angular.mock.module('amur.core.services', function ($provide) {
                 $provide.value('$window', $window);
             });
         });
-        beforeEach(module('waves.core.filter'));
+        beforeEach(module('amur.core.filter'));
         beforeEach(inject(function (_formattingFilter_) {
             formattingFilter = _formattingFilter_;
         }));

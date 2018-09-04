@@ -2,7 +2,7 @@ describe('PassPhrase.Service', function() {
     var passPhraseService, words;
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('amur.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {

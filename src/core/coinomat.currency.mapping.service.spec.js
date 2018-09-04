@@ -2,7 +2,7 @@ describe('Coinomat.Currency.Mapping.Service', function() {
     var mappingService;
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('amur.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {
@@ -19,8 +19,8 @@ describe('Coinomat.Currency.Mapping.Service', function() {
         expect(mappingService.gatewayCurrencyCode(Currency.BTC)).toEqual('BTC');
     });
 
-    it('should return correct codes for waves', function() {
-        expect(mappingService.gatewayCurrencyCode(Currency.WAVES)).toEqual('WAVES');
-        expect(mappingService.platformCurrencyCode(Currency.WAVES)).toEqual('WAVES');
+    it('should return correct codes for amur', function() {
+        expect(mappingService.gatewayCurrencyCode(Currency.AMUR)).toEqual('AMUR');
+        expect(mappingService.platformCurrencyCode(Currency.AMUR)).toEqual('AMUR');
     });
 });

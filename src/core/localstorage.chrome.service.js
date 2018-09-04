@@ -2,9 +2,9 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('chromeStorageService', ['$q', function ($q) {
-            var $key = 'WavesAccounts';
+            var $key = 'AmurAccounts';
             var self = this;
 
             self.saveState = function (state) {

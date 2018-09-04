@@ -7,7 +7,7 @@ describe('Storage.Provider', function() {
     var wnd;
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('amur.core.services'));
 
     beforeEach(function () {
         module(function (storageServiceProvider) {

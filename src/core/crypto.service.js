@@ -6,7 +6,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('cryptoService', ['constants.network', '$window', function(constants, window) {
 
             // private version of getNetworkId byte in order to avoid circular dependency
@@ -169,7 +169,7 @@
             this.verify = function(senderPublicKey, dataToSign, signatureBytes) {
                 return axlsign.verify(senderPublicKey, dataToSign, signatureBytes);
             };
-            
+
             // function returns base58 encoded shared key from base58 encoded a private
             // and b public keys
             this.getSharedKey = function (aEncodedPrivateKey, bEncodedPublicKey) {
@@ -180,7 +180,7 @@
                 return this.base58.encode(sharedKey);
             };
 
-            // function can be used for sharedKey preparation, as recommended in: https://github.com/wavesplatform/curve25519-js
+            // function can be used for sharedKey preparation, as recommended in: https://github.com/amur-host/curve25519-js
             this.prepareKey = function (key) {
                 return prepareKey(key);
             };

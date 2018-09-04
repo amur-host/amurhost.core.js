@@ -1,4 +1,4 @@
 (function () {
     'use strict';
-    angular.module('waves.core.directives', []);
+    angular.module('amur.core.directives', []);
 })();

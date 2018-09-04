@@ -129,6 +129,6 @@
     AssetService.$inject = ['signService', 'validateService', 'utilityService', 'cryptoService'];
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('assetService', AssetService);
 })();

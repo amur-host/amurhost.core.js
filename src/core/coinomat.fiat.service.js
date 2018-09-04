@@ -33,6 +33,6 @@
     CoinomatFiatService.$inject = ['CoinomatRestangular', 'coinomatCurrencyMappingService'];
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('coinomatFiatService', CoinomatFiatService);
 })();

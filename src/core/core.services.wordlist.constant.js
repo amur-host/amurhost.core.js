@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .constant('wordList', [
             'abandon', 'ability', 'able', 'about', 'above', 'absent', 'absorb', 'abstract', 'absurd', 'abuse', 'access',
             'accident', 'account', 'accuse', 'achieve', 'acid', 'acoustic', 'acquire', 'across', 'act', 'action',

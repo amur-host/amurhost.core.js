@@ -76,6 +76,6 @@
     MatcherRequestService.$inject = ['signService', 'utilityService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('matcherRequestService', MatcherRequestService);
 })();

@@ -6,7 +6,7 @@
         DEFAULT_LIMIT = 50;
 
     function serializeId(id) {
-        return id === '' ? 'WAVES' : id;
+        return id === '' ? 'AMUR' : id;
     }
 
     function DatafeedApiService(rest) {
@@ -68,6 +68,6 @@
     DatafeedApiService.$inject = ['DatafeedRestangular'];
 
     angular
-        .module('waves.core.services')
+        .module('amur.core.services')
         .service('datafeedApiService', DatafeedApiService);
 })();
